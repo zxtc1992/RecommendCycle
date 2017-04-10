@@ -13,6 +13,8 @@
 		FB58C1B41E9B8C6200AE5531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB58C1B21E9B8C6200AE5531 /* Main.storyboard */; };
 		FB58C1B61E9B8C6200AE5531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB58C1B51E9B8C6200AE5531 /* Assets.xcassets */; };
 		FB58C1B91E9B8C6200AE5531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB58C1B71E9B8C6200AE5531 /* LaunchScreen.storyboard */; };
+		FB58C1C31E9B8CBC00AE5531 /* JMRecommendCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB58C1C11E9B8CBC00AE5531 /* JMRecommendCycleView.m */; };
+		FB58C1C41E9B8CBC00AE5531 /* JMRecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB58C1C21E9B8CBC00AE5531 /* JMRecommendCycleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		FB58C1B51E9B8C6200AE5531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB58C1B81E9B8C6200AE5531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB58C1BA1E9B8C6200AE5531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB58C1C01E9B8CBC00AE5531 /* JMRecommendCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRecommendCycleView.h; sourceTree = "<group>"; };
+		FB58C1C11E9B8CBC00AE5531 /* JMRecommendCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRecommendCycleView.m; sourceTree = "<group>"; };
+		FB58C1C21E9B8CBC00AE5531 /* JMRecommendCycleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMRecommendCycleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				FB58C1AD1E9B8C6200AE5531 /* AppDelegate.m */,
 				FB58C1AF1E9B8C6200AE5531 /* ViewController.h */,
 				FB58C1B01E9B8C6200AE5531 /* ViewController.m */,
+				FB58C1C01E9B8CBC00AE5531 /* JMRecommendCycleView.h */,
+				FB58C1C11E9B8CBC00AE5531 /* JMRecommendCycleView.m */,
+				FB58C1C21E9B8CBC00AE5531 /* JMRecommendCycleView.xib */,
 				FB58C1B21E9B8C6200AE5531 /* Main.storyboard */,
 				FB58C1B51E9B8C6200AE5531 /* Assets.xcassets */,
 				FB58C1B71E9B8C6200AE5531 /* LaunchScreen.storyboard */,
@@ -138,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB58C1B91E9B8C6200AE5531 /* LaunchScreen.storyboard in Resources */,
+				FB58C1C41E9B8CBC00AE5531 /* JMRecommendCycleView.xib in Resources */,
 				FB58C1B61E9B8C6200AE5531 /* Assets.xcassets in Resources */,
 				FB58C1B41E9B8C6200AE5531 /* Main.storyboard in Resources */,
 			);
@@ -151,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB58C1B11E9B8C6200AE5531 /* ViewController.m in Sources */,
+				FB58C1C31E9B8CBC00AE5531 /* JMRecommendCycleView.m in Sources */,
 				FB58C1AE1E9B8C6200AE5531 /* AppDelegate.m in Sources */,
 				FB58C1AB1E9B8C6200AE5531 /* main.m in Sources */,
 			);
